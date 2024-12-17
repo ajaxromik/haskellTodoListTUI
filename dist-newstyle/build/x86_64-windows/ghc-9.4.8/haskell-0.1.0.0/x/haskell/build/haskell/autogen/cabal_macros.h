@@ -30,6 +30,26 @@
   (major1) == 2 && (major2) <  6 || \
   (major1) == 2 && (major2) == 6 && (minor) <= 0)
 #endif /* MIN_VERSION_brick */
+/* package bytestring-0.11.5.3 */
+#ifndef VERSION_bytestring
+#define VERSION_bytestring "0.11.5.3"
+#endif /* VERSION_bytestring */
+#ifndef MIN_VERSION_bytestring
+#define MIN_VERSION_bytestring(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  11 || \
+  (major1) == 0 && (major2) == 11 && (minor) <= 5)
+#endif /* MIN_VERSION_bytestring */
+/* package cassava-0.5.3.2 */
+#ifndef VERSION_cassava
+#define VERSION_cassava "0.5.3.2"
+#endif /* VERSION_cassava */
+#ifndef MIN_VERSION_cassava
+#define MIN_VERSION_cassava(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 3)
+#endif /* MIN_VERSION_cassava */
 /* package directory-1.3.7.1 */
 #ifndef VERSION_directory
 #define VERSION_directory "1.3.7.1"
@@ -90,6 +110,16 @@
   (major1) == 2 && (major2) <  19 || \
   (major1) == 2 && (major2) == 19 && (minor) <= 0)
 #endif /* MIN_VERSION_template_haskell */
+/* package time-1.12.2 */
+#ifndef VERSION_time
+#define VERSION_time "1.12.2"
+#endif /* VERSION_time */
+#ifndef MIN_VERSION_time
+#define MIN_VERSION_time(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  12 || \
+  (major1) == 1 && (major2) == 12 && (minor) <= 2)
+#endif /* MIN_VERSION_time */
 /* package vty-6.2 */
 #ifndef VERSION_vty
 #define VERSION_vty "6.2"

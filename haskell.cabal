@@ -69,7 +69,10 @@ library
         microlens-th,
         microlens,
         lens,
-        template-haskell
+        template-haskell,
+        cassava,
+        time,
+        bytestring
     hs-source-dirs:   src
     default-language: GHC2021
 
@@ -101,7 +104,10 @@ executable haskell
         microlens-th,
         microlens,
         lens,
-        template-haskell
+        template-haskell,
+        cassava,
+        time,
+        bytestring
 
     -- Directories containing source files.
     hs-source-dirs:   src
